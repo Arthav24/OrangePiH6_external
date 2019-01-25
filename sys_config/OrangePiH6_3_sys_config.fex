@@ -285,7 +285,7 @@ twi2_scl         = port:PD23<7><default><default><default>
 twi2_sda         = port:PD24<7><default><default><default>
 
 [twi3]
-twi3_used        = 0
+twi3_used        = 1
 twi3_scl         = port:PB17<2><default><default><default>
 twi3_sda         = port:PB18<2><default><default><default>
 ;----------------------------------------------------------------------------------
@@ -1464,7 +1464,7 @@ daudio2_used 		= 1
 ;	daudio3_used = 0x1, if register the Daudio3 used for ACX00 codec card
 ;--------------------------------------------------------------------------------
 [snddaudio3]
-snddaudio3_used 	= 0
+snddaudio3_used 	= 1
 ;-----------------------------------------------------------------------------
 [daudio3]
 pcm_lrck_period 	= 0x20
