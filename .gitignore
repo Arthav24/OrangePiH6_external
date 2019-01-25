@@ -16,6 +16,7 @@ jessie-base-arm64.tar.gz
 ArchLinuxARM-aarch64-latest.tar.gz
 xenial-base-arm64.tar.gz
 CentOS-7-aarch64-rootfs-1606.tar.xz
+ubuntu-base-16.04.5-base-arm64.tar.gz
 
 # OrangePi external
 !asound.state
