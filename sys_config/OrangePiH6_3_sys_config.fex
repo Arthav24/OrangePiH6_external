@@ -782,7 +782,7 @@ ccir_do7 = port:PB11<7><0><default><default>
 ;pwm config
 ;----------------------------------------------------------------------------------
 [pwm0]
-pwm_used            = 0
+pwm_used            = 1
 pwm_positive        = port:PD22<2><0><default><default>
 
 [pwm0_suspend]
