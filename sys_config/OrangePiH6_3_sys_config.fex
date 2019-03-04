@@ -107,7 +107,7 @@ key_work_mode           = 1
 short_press_mode        = 0
 long_press_mode         = 1
 key_press_time          = 2000
-recovery_key = 
+recovery_key = port:PH07<0><default><default><default>
 
 ;----------------------------------------------------------------------------------
 ; GPIO init on uboot
@@ -1560,7 +1560,7 @@ power_start                = 0
 ;--------------------------------------------------------------------------------------------------------
 [powerkey0]
 compatible                 = "axp806-powerkey"
-pmu_powkey_off_time        = 6000
+pmu_powkey_off_time        = 3000
 pmu_powkey_off_func        = 0
 pmu_powkey_off_en          = 1
 pmu_powkey_long_time       = 1500
